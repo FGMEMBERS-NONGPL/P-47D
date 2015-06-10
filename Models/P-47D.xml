@@ -3,6 +3,9 @@
 <PropertyList>
 
  <path>p47d.ac</path>
+ 
+  <!-- MP sound call -->
+  <sound><path>Aircraft/P-47D/Sounds/mp-sound.xml</path></sound>
 
 
 <!-- ******************** instruments *******************-->
@@ -260,8 +263,42 @@
      <type>shader</type>
      <shader>chrome</shader>
      <texture>med-metal-world.png</texture>
-     <object-name>Spinner</object-name>
+     <object-name>Mirror</object-name>
  </animation>
+ 
+ 
+ <!--shader	-->
+<animation>
+		<type>shader</type>
+		<shader>chrome</shader>
+    <texture>Aircraft/Generic/Effects/glass_shader.png</texture>
+		<object-name>CanopyGlass</object-name>
+		<object-name>WindscreenGlass</object-name>
+		<object-name>Sight</object-name>
+		<object-name>gunsiightglass</object-name>
+		<object-name>LNavLightCover</object-name>
+		<object-name>RNavLightCover</object-name>
+		
+		
+</animation>
+
+ <!--  REMBRANDT support for transparent objects-->
+  <effect>
+    <inherits-from>Effects/model-transparent</inherits-from>
+    <condition>
+      <property>sim/rendering/rembrandt/enabled</property>
+    </condition>
+  <object-name>CanopyGlass</object-name>
+		<object-name>WindscreenGlass</object-name>
+		<object-name>PropDisk</object-name>
+		<object-name>PropBlur</object-name>
+		<object-name>Sight</object-name>
+		<object-name>gunsiightglass</object-name>
+		<object-name>LNavLightCover</object-name>
+		<object-name>RNavLightCover</object-name>
+  </effect>
+ 
+ 
 
  <animation>
   <type>select</type>

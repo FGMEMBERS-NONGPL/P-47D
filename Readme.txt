@@ -1,3 +1,25 @@
+FGUK's Republic P-47 Thunderbolt
+--------------------------------
+
+http://fguk.eu/index.php/hangar/viewdownload/3-military-piston/22-republic-p-47-thunderbolt
+
+![FGUK IMAGE](http://www.fguk.eu/images/jdownloads/screenshots/fgfs-screen-0401.png)
+
+
+This aircraft requires the DAVE PACK, available <a href="http://www.fgukmedia.co.uk/index.php/hangar/viewdownload/11-other-objects-and-vehicles/170-davepackupdate">HERE</a>
+
+RELEASE NOTES:
+--------------------------
+
+Dave Culps P-47D updated:
+
+* Rembrandt ready
+* Updated sound pack
+* Updated autopilot
+
+
+****
+
 This model is converted from an Alpha Simulations P-47 model for use with the FlightGear
 Flight Simulator.  License:  Creative Commons, CC-BY-NC-SA.
 

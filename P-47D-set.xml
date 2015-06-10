@@ -9,13 +9,20 @@
  <sim>
 
   <description>Republic P-47D Thunderbolt</description>
- 
+ <aircraft-version>0.5</aircraft-version>
+    <status>0.5</status>
   <flight-model>jsb</flight-model>
   <aero>P-47D-jsbsim</aero>
 
   <startup>
    <splash-texture>Aircraft/P-47D/P-47D-splash.png</splash-texture>
   </startup>
+
+  <systems>
+   <autopilot>
+         <path>Aircraft/P-47D/Systems/VooDooPropAP1.xml</path>
+      </autopilot>
+  </systems>
   
   <sound>
    <audible>true</audible>

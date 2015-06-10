@@ -7,7 +7,7 @@
 
   <engine>
    <name>engstart</name>
-   <path>Aircraft/DavePack/Sounds/Censtart.wav</path>
+   <path>Aircraft/P-47D/Sounds/p47-start.wav</path>
    <property>engines/engine/cranking</property>
    <position>
     <x>-1.5</x>
@@ -22,7 +22,7 @@
   <engine>
    <name>engine-low-rpm</name>
    <mode>looped</mode>
-   <path>Aircraft/DavePack/Sounds/hc1a.wav</path>
+   <path>Aircraft/P=47D/Sounds/p47-idle.wav</path>
    <condition>
     <property>engines/engine[0]/running</property>
     <less-than>
@@ -48,7 +48,7 @@
   <engine>
    <name>engine-high-rpm</name>
    <mode>looped</mode>
-   <path>Aircraft/DavePack/Sounds/radial.wav</path>
+   <path>Aircraft/P-47D/Sounds/p47-running.wav</path>
    <condition>
     <property>engines/engine[0]/running</property>
     <greater-than>
@@ -73,7 +73,7 @@
 
   <shutdown>
    <name>shutdown</name>
-   <path>Aircraft/DavePack/Sounds/CentSdown_3.wav</path>
+   <path>Aircraft/P-47D/Sounds/p47-shutdown.wav</path>
    <condition>
     <equals>
       <property>controls/engines/engine[0]/magnetos</property>
